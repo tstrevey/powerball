@@ -1,5 +1,10 @@
 from random import randint
 
+try:
+	input = raw_input
+except NameError:
+	pass
+
 '''
 A different take on Powerball:
 
